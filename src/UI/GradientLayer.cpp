@@ -627,7 +627,7 @@ void GradientLayer::keyDown(enumKeyCodes key) {
     }
 
     CCPoint move = {0, 0};
-    float amount = Mod::get()->getSettingValue<float>("move-step");
+    float amount = Mod::get()->getSettingValue<double>("move-step");
 
     switch (key) {
         case enumKeyCodes::KEY_Up: move = ccp(0, amount); break;
