@@ -7,8 +7,8 @@
 class $modify(ProGJGarageLayer, GJGarageLayer) {
 
 	static void onModify(auto& self) {
-		(void) self.setHookPriorityBeforePre("GJGarageLayer::onSelect", "weebify.separate_dual_icons");
-		(void) self.setHookPriorityBeforePre("GJGarageLayer::onSelect", "hiimjustin000.more_icons");
+		(void)self.setHookPriorityBeforePre("GJGarageLayer::onSelect", "weebify.separate_dual_icons");
+		(void)self.setHookPriorityBeforePre("GJGarageLayer::onSelect", "hiimjustin000.more_icons");
 	}
 
 	struct Fields {
